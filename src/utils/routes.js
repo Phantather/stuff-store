@@ -1,4 +1,6 @@
 export const Routes = {
     HOME: '/',
-    CART: '/cart'
+    CART: '/cart',
+    PRODUCTS: 'products/:id',
+    CATEGORY: '/categories/:id'
 }
