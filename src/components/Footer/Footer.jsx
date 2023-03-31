@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {Routes} from "../../utils/routes";
+import {ROUTES} from "../../utils/routes";
 
 import styles from '../../styles/Footer.module.css'
 
@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.logo}>
-                <Link to={Routes.HOME}>
+                <Link to={ROUTES.HOME}>
                     <img src={Logo} alt="Stuff"/>
                 </Link>
             </div>
